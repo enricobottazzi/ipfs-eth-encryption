@@ -56,7 +56,7 @@ const cid = await UploadToIpfs(encrypted, node)
 ```js
 const node = await IPFS.create();
 
-const privateKey = "0xd855f906bf500f14ad028ddb9ca6026d43f072ea759f5f870017edf504d3f6b0"
+const privateKey = "0xd855f906bf500f14ad028ddb9ca6026d43f072ea759f5f870017edf504d3f6b1"
 
 const decrypted = await Decrypt(privateKey, cid, node)
 // Hello world!
