@@ -1,0 +1,9 @@
+export interface LengthEncoderFunction {
+    (value: number, target?: Uint8Array, offset?: number): Uint8Array;
+    bytes: number;
+}
+/**
+ * Encode the passed length `value` to the `target` buffer at the given `offset`
+ */
+export declare const varintEncode: LengthEncoderFunction;
+//# sourceMappingURL=varint-encode.d.ts.map

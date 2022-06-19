@@ -1,0 +1,31 @@
+{
+  "name": "ipfs-eth-encryption",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Encrypt file using public ethereum keys, upload it to IPFS and decrypt it using the private key",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enricobottazzi/ipfs-eth-encryption.git"
+  },
+  "keywords": [
+    "ipfs",
+    "ethereum",
+    "encryption",
+    "decryption",
+    "asymmetric",
+    "identity"
+  ],
+  "author": "Enrico Bottazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enricobottazzi/ipfs-eth-encryption/issues"
+  },
+  "homepage": "https://github.com/enricobottazzi/ipfs-eth-encryption#readme",
+  "dependencies": {
+    "eth-crypto": "^2.3.0"
+  }
+}

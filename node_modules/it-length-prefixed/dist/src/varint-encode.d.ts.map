@@ -1,0 +1,1 @@
+{"version":3,"file":"varint-encode.d.ts","sourceRoot":"","sources":["../../src/varint-encode.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,qBAAqB;IACpC,CAAC,KAAK,EAAE,MAAM,EAAE,MAAM,CAAC,EAAE,UAAU,EAAE,MAAM,CAAC,EAAE,MAAM,GAAG,UAAU,CAAA;IACjE,KAAK,EAAE,MAAM,CAAA;CACd;AAED;;GAEG;AACH,eAAO,MAAM,YAAY,EAAE,qBAM1B,CAAA"}
